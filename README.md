@@ -1,91 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Darshan PL | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #0056b3;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    section {
-      padding: 30px;
-      background-color: white;
-      margin: 20px;
-      border-radius: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #007bff;
-      color: white;
-    }
-  </style>
-</head>
-<body>
+# Personal Portfolio Website
 
-<header>
-  <h1>Hello, I'm Darshan PL 👋</h1>
-  <p>Engineering Student | Learner | Future Techie</p>
-</header>
+A simple personal portfolio website built with HTML and CSS. It presents an introduction, skills, education, and contact information in a single-page layout.
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#education">Education</a>
-  <a href="#contact">Contact</a>
-</nav>
+## Page Sections
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>Hi! I'm Darshan PL, currently in my 1st semester of engineering. I love learning Python and exploring new tech. I'm aiming to get into machine learning and build cool projects in the future!</p>
-</section>
+- **About Me** — introduction and areas of interest
+- **Skills** — programming and web fundamentals
+- **Education** — academic background
+- **Contact** — public contact channels
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Python (Core)</li>
-    <li>HTML5 & Web Basics</li>
-    <li>Problem Solving</li>
-    <li>Communication & Teamwork</li>
-  </ul>
-</section>
+## Technology
 
-<section id="education">
-  <h2>Education</h2>
-  <p><strong>10th Grade:</strong> 81% (Passed)</p>
-  <p><strong>Current:</strong> 1st Semester of Engineering</p>
-</section>
+- HTML5 for page structure
+- CSS3 for layout and visual styling
+- Google Fonts for typography
 
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>Email: <a href="mailto:darshanpl@email.com">darshanpl@email.com</a></p>
-  <p>Location: Karnataka, India</p>
-</section>
+## Preview Locally
 
-<footer>
-  <p>© 2025 Darshan PL. All rights reserved.</p>
-</footer>
+This is a static website and does not require a backend or package installation.
 
-</body>
-</html>
+```bash
+git clone https://github.com/dar2006sh8an13/portfolio.git
+cd portfolio
+python -m http.server 8000
+```
+
+Open [http://localhost:8000](http://localhost:8000) in your browser. You can also open the HTML entry page directly.
+
+## Customize
+
+Edit the HTML and CSS to update the introduction, skills, education, colors, typography, and links. Before publishing, review all contact details and remove placeholders or private information you do not intend to make public.
+
+## Deployment
+
+The site can be deployed to GitHub Pages or any static web host. Set the published directory and entry page according to the host's configuration.
+
+## Contributing
+
+1. Create a branch for your change.
+2. Keep changes focused and responsive.
+3. Preview the page on mobile and desktop.
+4. Open a pull request describing the update.
+
+## License
+
+No license is currently documented. Add a license file if you intend to permit reuse or redistribution.
